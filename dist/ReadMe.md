@@ -1,6 +1,5 @@
 
-  # Run Buddy
-  
+  # Owen
   
   ![badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
@@ -8,34 +7,29 @@
   
   
   ## Description 
-  Test
+  Owen
     
   ---
 
   ## Table of Contents 
-  
   * [Installation](#installation)
   * [Usage](#usage)
   
   * [License](#license)
   
   
-  * [Contributing](#contributing)
-  
-  
-  * [Test](#test)
   
   * [Questions](#questions)
   
   ---
 
   ## Installation
-  Test
+  Owen
 
   ---
   
   ## Usage 
-  Test
+  Owen
 
   ---
   
@@ -60,20 +54,7 @@
   
   
   
-  ## Contributing
-  Please see the link below for our code of conduct for contributing to this project.
-  https://www.contributor-covenant.org/version/2/0/code_of_conduct/
-
-  ---
-
   
-  
-  
-  ## Test
-  Test
-
-  ---
-
   
   
   ## Questions
@@ -81,7 +62,7 @@
   
   Email: <odupree1988@gmail.com>
   
-  GitHub: [https://github.com/odupree1988](https://github.com/odupree1988) 
+  GitHub: [odupree198](https://github.com/odupree198) 
 
   Made By Owen Dupree 2021
 

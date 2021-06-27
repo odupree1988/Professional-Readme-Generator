@@ -2,7 +2,7 @@
 const fs = require("fs");
 const inquirer = require("inquirer");
 // const { validate } = require("json-schema");
-const readMeMd = require("./src/readme-template");
+const readMeMd = require("./utils/readme-template");
 const { writeFile } = require("./utils/generate-markdown");
 
 const promptUser = () => {

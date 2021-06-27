@@ -17,7 +17,7 @@ const codeOfConduct = (conductLink) => {
 
   return `
   ## Contributing
-  Please see the link below for our code of conduct for contributing to this project.
+  Please click on the link for our code of conduct for contributing to this project.
   https://www.contributor-covenant.org/version/2/0/code_of_conduct/
 
   ---
@@ -159,7 +159,6 @@ const licenseTable = (licenseTableContents) => {
 const generateReadMe = (readMeData) => {
   return `
   # ${readMeData.title}
-  
   ${badgeCheck(readMeData)}
   
   ## Description 
@@ -168,7 +167,6 @@ const generateReadMe = (readMeData) => {
   ---
 
   ## Table of Contents 
-  
   * [Installation](#installation)
   * [Usage](#usage)
   ${licenseTable(readMeData)}
@@ -199,9 +197,7 @@ const generateReadMe = (readMeData) => {
   
   Email: <${readMeData.email}>
   
-  GitHub: [https://github.com/${readMeData.github}](https://github.com/${
-    readMeData.github
-  }) 
+  GitHub: [${readMeData.github}](https://github.com/${readMeData.github}) 
 
   Made By ${readMeData.name} ${new Date().getFullYear()}
 
