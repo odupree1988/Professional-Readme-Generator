@@ -18,7 +18,7 @@ by the user in order for the application to properly create the readme.
 ---
 
 ## Installation
-After cloning the repository run 'npm init' as well as 'npm install inquirer' in order to 
+After cloning the repository, run 'npm init' as well as 'npm install inquirer' in order to 
 use the application.
 
 ---
