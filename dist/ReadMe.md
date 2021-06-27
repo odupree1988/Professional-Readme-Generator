@@ -7,7 +7,7 @@
   
   
   ## Description 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur. Amet purus gravida quis blandit turpis.
+  Test
     
   ---
 
@@ -28,12 +28,12 @@
   ---
 
   ## Installation
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur. Amet purus gravida quis blandit turpis.
+  Test
 
   ---
   
   ## Usage 
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur. Amet purus gravida quis blandit turpis.
+  Test
 
   ---
   
@@ -70,7 +70,7 @@
   
   
   ## Test
-  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Et magnis dis parturient montes nascetur. Amet purus gravida quis blandit turpis.
+  Test
 
   ---
 
