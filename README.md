@@ -15,9 +15,13 @@ by the user in order for the application to properly create the readme.
 * [License](#license)
 * [Questions](#questions)
 
+---
+
 ## Installation
 After cloning the repository run 'npm init' as well as 'npm install inquirer' in order to 
 use the application.
+
+---
 
 ## Usage 
 To start the application, type 'node index.js' in the terminal, then answer the prompted 
@@ -27,6 +31,8 @@ use the application.
 ![](images/Professional-Readme-Generator001.png)
 
 [Instruction Video](https://drive.google.com/file/d/10zur5TofvK8O-GrNVxorjar3Bjm3kQZj/preview)
+
+---
 
 ## License
 MIT
