@@ -36,8 +36,9 @@ const promptUser = () => {
     {
       type: "list",
       name: "license",
-      message:"Choose which license you would like to add to your project. (Required)",
-      choices: ["MIT", "Apache", "GNU", "ISC", "None"],
+      message:
+        "Choose which license you would like to add to your project. (Required)",
+      choices: ["MIT", "Apache 2.0", "GNU", "ISC", "None"],
       validate: (licenseChoice) => {
         if (licenseChoice) {
           return true;
@@ -84,9 +85,29 @@ const promptUser = () => {
     },
     {
       type: "confirm",
-      name: "test",
-      message: "Would you like to add a section testing your code?",
+      name: "confirmTest",
+      message: "Would you like to add a test section?",
       default: false,
+    },
+    {
+      type: "input",
+      name: "test",
+      message: "Please enter your test command(s).",
+      when: ({ confirmTest }) => {
+        if (confirmTest) {
+          return true;
+        } else {
+          return false;
+        }
+      },
+      validate: (testInput) => {
+        if (testInput) {
+          return true;
+        } else {
+          console.log("Please enter your test command(s)!");
+          return false;
+        }
+      },
     },
     {
       type: "input",
@@ -114,6 +135,19 @@ const promptUser = () => {
         }
       },
     },
+    {
+      type: "input",
+      name: "name",
+      message: "Please enter your full name. (Required)",
+      validate: (nameInput) => {
+        if (nameInput) {
+          return true;
+        } else {
+          console.log("Please enter your full name!");
+          return false;
+        }
+      },
+    },
   ]);
 };
 
@@ -124,12 +158,3 @@ promptUser()
   .then((readMeMarkDown) => {
     return writeFile(readMeMarkDown);
   });
-
-// TODO: Create a function to write README file
-// function writeToFile(fileName, data) {}
-
-// TODO: Create a function to initialize app
-// function init() {}
-
-// Function call to initialize app
-// init();
