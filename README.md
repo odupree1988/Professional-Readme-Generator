@@ -30,7 +30,7 @@ use the application.
 
 ![](images/Professional-Readme-Generator001.png)
 
-[Instruction Video](https://drive.google.com/file/d/17ImgrE4O5ILBL6tz7MZEBL98D9X42Gi2/preview)
+[Instructional Video](https://drive.google.com/file/d/17ImgrE4O5ILBL6tz7MZEBL98D9X42Gi2/preview)
 
 ---
 
