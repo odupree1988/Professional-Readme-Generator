@@ -1,4 +1,4 @@
-# Random-Readme-Generator
+# Professional Readme Generator
 ![badge](https://img.shields.io/badge/License-MIT-brightgreen)
 
 
