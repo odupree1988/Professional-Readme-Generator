@@ -1,9 +1,10 @@
 const badgeCheck = (data) => {
+  const formattedBadge = data.license.split(" ").join("_");
   if (data.license === "None") {
     return "";
   }
   return `
-  ![badge](https://img.shields.io/badge/License-${data.license}-brightgreen)
+  ![badge](https://img.shields.io/badge/License-${formattedBadge}-brightgreen)
 
   ---
   `;
